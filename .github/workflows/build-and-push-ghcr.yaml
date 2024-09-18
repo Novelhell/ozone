@@ -7,7 +7,7 @@ on:
       - v*
 env:
   REGISTRY: ghcr.io
-  USERNAME: ${{ github.actor }}
+  USERNAME: ${{Novelhell}}
   PASSWORD: ${{ secrets.GITHUB_TOKEN }}
 
   # github.repository as <account>/<repo>
